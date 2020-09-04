@@ -1,0 +1,39 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+canvas {
+    width: 100%;
+    background: #232323;
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+}
+
+p {
+    text-align: center;
+    z-index: 1;
+    background: none;
+    color: rgb(238, 235, 235);
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    line-height: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+@media(min-width: 800px) {
+    #mobile {
+        display: none;
+    }
+}
+
+@media(max-width: 800px) {
+    #pc {
+        display: none;
+    }
+}

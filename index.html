@@ -17,31 +17,6 @@
             background: black;
             height: 100%;
         }
-
-        input {
-            display: none;
-            background: rgba(88, 83, 83, 0.925);
-            width: 100%;
-            color: rgb(247, 247, 247);
-            border: 3px solid rgba(0, 0, 0, 0);
-            ;
-            box-sizing: border-box;
-        }
-
-        input:focus {
-            border: 3px solid #80918b;
-            outline: none;
-        }
-
-        input::placeholder {
-            color: rgba(238, 238, 238, 0.664);
-        }
-
-        @media(max-width: 450px) {
-            input {
-                display: block;
-            }
-        }
     </style>
     <script src="paper-full.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.min.js" type="text/javascript"></script>
@@ -236,7 +211,6 @@
 </head>
 
 <body>
-    <input type="text" placeholder="Enter a key to play animation">
     <canvas id="canvas" resize></canvas>
 </body>
 
